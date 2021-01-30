@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd express-games-shop && npm install && npm start",
     "heroku-postbuild": "cd react-games-shop && npm install && npm run build"
   },
