@@ -1,0 +1,36 @@
+.ItemModal {
+  position: absolute;
+  z-index: 999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &__form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  &__buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.OverlayItemModal {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}

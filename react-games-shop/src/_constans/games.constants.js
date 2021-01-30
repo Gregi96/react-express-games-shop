@@ -1,0 +1,6 @@
+export const gamesConstants = {
+  GET_GAMES: 'GET_GAMES',
+  UPDATE_USER_GAMES: 'UPDATE_USER_GAMES',
+  DELETE_GAME: 'DELETE_GAME',
+  UPDATE_GAME: 'UPDATE_GAME',
+};

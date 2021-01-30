@@ -1,0 +1,16 @@
+{
+  "name": "react-express-game-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd express-games-shop && npm install && npm start",
+    "heroku-postbuild": "cd react-games-shop && npm install && npm run build"
+  },
+  "engines": {
+    "node": "14.15.4"
+  },
+  "author": "Grzegorz Klimek",
+  "license": "ISC"
+}

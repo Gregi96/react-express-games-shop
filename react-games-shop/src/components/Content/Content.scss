@@ -1,0 +1,15 @@
+.main-content {
+  position: relative;
+  width: calc(100% - 300px);
+  top: 30vh;
+  left: 300px;
+
+  @media (max-width: 700px) {
+    width: 90%;
+    top: 65px;
+    left: 0;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
