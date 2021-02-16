@@ -25,7 +25,7 @@ const gamesData = [
   {
     id: uuid(),
     img:
-      'https://gamesguru.org/wp-content/uploads/2020/07/crysis-remastered-premiera-op%C3%B3%C5%BAniona-1.jpg',
+      'https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-04-19-13-17/digitalfoundry-2020-crysis-remastered-reveal-analysis-1587298628130.jpg/EG11/resize/1200x-1/digitalfoundry-2020-crysis-remastered-reveal-analysis-1587298628130.jpg',
     price: 50,
     title: 'Crysis',
   },
